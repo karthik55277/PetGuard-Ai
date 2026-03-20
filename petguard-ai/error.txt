@@ -1,0 +1,26 @@
+remote: error: GH013: Repository rule violations found for refs/heads/my-first-push.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— OpenAI API Key ————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: 4023c77f79d8114f6e547cddeefffc6d9b80caa6        
+remote:            path: petguard-ai/backend/.env:2        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/karthik55277/PetGuard-Ai/security/secret-scanning/unblock-secret/3BArHqEJuIG66lQ2U3ttRcpJdy4        
+remote:             
+remote: 
+remote: 
+To https://github.com/karthik55277/PetGuard-Ai.git
+ ! [remote rejected] my-first-push -> my-first-push (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/karthik55277/PetGuard-Ai.git'
